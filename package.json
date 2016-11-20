@@ -24,10 +24,11 @@
   },
   "devDependencies": {
     "chai": "^3.5.0",
-    "express": "^4.13.4",
+    "express": "^4.14.0",
     "jshint": "~2.9.4",
     "mocha": "^2.4.5",
     "mocha-jshint": "^2.3.1",
+    "nodemon": "^1.11.0",
     "request-promise": "^3.0.0",
     "rsvp": "^3.3.3"
   },
@@ -35,6 +36,7 @@
     "node": ">= 0.10.0"
   },
   "scripts": {
-    "test": "node_modules/.bin/mocha"
+    "test": "node_modules/.bin/mocha",
+    "dev:errors": "nodemon dev-errors.js"
   }
 }
